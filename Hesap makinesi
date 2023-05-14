@@ -1,0 +1,13 @@
+s1=int(input("Bir sayi giriniz:"))
+
+s2=int(input("Bir sayi giriniz:"))
+
+islem=input("Hangi islemi yapacaksin(*,+,-,/):")
+
+if islem=="*":
+
+	print(s1*s2)
+
+elif islem=="+":
+
+	print(s1+s2)
